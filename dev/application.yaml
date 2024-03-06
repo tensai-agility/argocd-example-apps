@@ -4,7 +4,7 @@ metadata:
   name: myapp-argo-application
   namespace: argocd
 spec:
-  project: myapp
+  project: default
 
   source:
     repoURL: https://github.com/tensai-agility/argocd-example-apps.git
